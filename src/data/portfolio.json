@@ -1,0 +1,223 @@
+{
+  "navItems": [
+    {
+      "name": "Home",
+      "link": "#home"
+    },
+    {
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "name": "Projects",
+      "link": "#projects"
+    },
+    {
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
+  "skills": [
+    {
+      "name": "C#",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+      "name": "C++",
+      "url": "https://isocpp.org/"
+    },
+    {
+      "name": "Python",
+      "url": "https://www.python.org/"
+    },
+    {
+      "name": "Reverse Engineering",
+      "url": "https://en.wikipedia.org/wiki/Reverse_engineering"
+    },
+    {
+      "name": "Packet Manipulation",
+      "url": "https://en.wikipedia.org/wiki/Packet_manipulation"
+    },
+    {
+      "name": "WinDivert",
+      "url": "https://reqrypt.org/windivert.html"
+    },
+    {
+      "name": "mitmproxy",
+      "url": "https://mitmproxy.org/"
+    },
+    {
+      "name": "VMProtect",
+      "url": "https://vmpsoft.com/"
+    },
+    {
+      "name": "ADB",
+      "url": "https://developer.android.com/tools/adb"
+    },
+    {
+      "name": ".NET Framework",
+      "url": "https://dotnet.microsoft.com/en-us/download/dotnet-framework"
+    },
+    {
+      "name": "Native Development",
+      "url": "https://en.wikipedia.org/wiki/Native_computing"
+    },
+    {
+      "name": "Ghidra",
+      "url": "https://ghidra-sre.org/"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Bypass Developer",
+      "company": "Independent",
+      "year": "2023 - Present",
+      "description": "Developing high-end bypass solutions for Free Fire, focusing on packet manipulation and anti-cheat evasion.",
+      "skills": [
+        "C#",
+        "Python",
+        "WinDivert",
+        "VMProtect"
+      ]
+    },
+    {
+      "role": "Reverse Engineer",
+      "company": "Security Research",
+      "year": "2022 - Present",
+      "description": "Analyzing game binaries and network protocols to identify vulnerabilities and create stable modifications.",
+      "skills": [
+        "C++",
+        "Ghidra",
+        "dotPeek",
+        "Assembly"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI Career Assistant",
+      "description": "An AI-powered career guidance platform helping students discover academic streams based on marks and interests using Groq Llama AI.",
+      "longDescription": "Built using Groq Llama-3.3-70B for intelligent analysis and Flux-1-Schnell for visual roadmap generation. The platform features a 3-step assessment system and a persistent AI mentor chatbot to guide students through their educational journey.",
+      "features": [
+        "Groq Llama-3.3-70B AI Career Analysis",
+        "Flux-1-Schnell AI Roadmap Generation",
+        "Secure Google OAuth 2.0 & OTP Auth",
+        "Persistent AI Chatbot with MongoDB History"
+      ],
+      "tags": [
+        "React",
+        "Groq AI",
+        "MongoDB",
+        "Tailwind"
+      ],
+      "link": "https://github.com/luffycpp/Gladitors",
+      "year": "2024",
+      "sourceCode": "https://github.com/luffycpp/Gladitors"
+    },
+    {
+      "id": 2,
+      "title": "Carbon Analyzer",
+      "description": "A comprehensive carbon footprint analyzer application built with Flutter and Python for environmental impact tracking.",
+      "longDescription": "A cross-platform mobile and desktop application that allows users to track and analyze their carbon footprint. Features a robust Python backend for data processing and a clean Dart/Flutter interface for visualization.",
+      "features": [
+        "Cross-platform Flutter Interface",
+        "High-performance Python Backend",
+        "Real-time Carbon Footprint Calculation",
+        "Data Visualization & Analytics"
+      ],
+      "tags": [
+        "Flutter",
+        "Python",
+        "C++",
+        "Dart"
+      ],
+      "link": "https://github.com/luffycpp/Gladiators-V2.0",
+      "year": "2024",
+      "sourceCode": "https://github.com/luffycpp/Gladiators-V2.0"
+    },
+    {
+      "id": 3,
+      "title": "Bypass & Security Suite",
+      "description": "Advanced system-level tools focusing on packet manipulation, kernel-level interception, and anti-cheat evasion.",
+      "longDescription": "Developed sophisticated bypass solutions utilizing WinDivert for kernel-level packet manipulation and mitmproxy for local traffic modification. Specialized in creating stable, hard-to-detect tools for Windows environments.",
+      "features": [
+        "Kernel-level Packet Interception (WinDivert)",
+        "Advanced VMProtect Custom Scripting",
+        "C# & Native C++ Hybrid Architecture",
+        "Sophisticated Traffic Manipulation Logic"
+      ],
+      "tags": [
+        "C#",
+        "C++",
+        "WinDivert",
+        "Security"
+      ],
+      "link": "https://github.com/luffycpp",
+      "year": "2024",
+      "sourceCode": "https://github.com/luffycpp"
+    }
+  ],
+  "hero": {
+    "titleWords": [
+      "Advanced",
+      "System",
+      "Architect"
+    ],
+    "description": "Specializing in Full-Stack Development, Game Security, and AI-Driven Applications.",
+    "primaryCta": {
+      "text": "View Projects",
+      "link": "#projects"
+    },
+    "secondaryCta": {
+      "text": "Contact Me",
+      "link": "#contact"
+    },
+    "id": "home"
+  },
+  "about": {
+    "titleLine1": "Architecting Scalable",
+    "titleLine2": "and Secure Systems.",
+    "description": "I am a multi-disciplinary engineer with deep expertise in full-stack development, system architecture, and cybersecurity. From building AI-powered career assistants to kernel-level network interceptors, I focus on creating robust, high-performance applications that push the boundaries of modern technology.",
+    "image": "pfp.png",
+    "location": "Remote / Global"
+  },
+  "footer": {
+    "ctaLine1": "Let's Build",
+    "ctaLine2": "Something.",
+    "email": "contact@luffycpp.dev",
+    "copyrightName": "Luffycpp",
+    "socials": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/luffycpp"
+      }
+    ]
+  },
+  "general": {
+    "brandName": "Luffycpp.",
+    "logo": "pfp.png",
+    "navCta": "Let's Talk",
+    "preloaderText": "Luffycpp."
+  },
+  "techMarquee": [
+    "C#",
+    "C++",
+    "Python",
+    "WinDivert",
+    "mitmproxy",
+    "VMProtect",
+    "Ghidra",
+    "dotPeek",
+    "ADB",
+    ".NET",
+    "Assembly",
+    "Native Development",
+    "Reverse Engineering",
+    "Packet Manipulation",
+    "Networking",
+    "Security",
+    "Windows API",
+    "Kernel Mode"
+  ]
+}

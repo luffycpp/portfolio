@@ -1,0 +1,129 @@
+
+> portfolio-site@0.1.0 lint
+> eslint
+
+
+D:\Website Projects\portfolio-site\src\app\layout.tsx
+  1:15  warning  'Metadata' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\About.tsx
+  4:10  warning  'motion' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\Background.tsx
+  38:9  warning  Compilation Skipped: Inline `class` declarations are not supported
+
+Move class declarations outside of components/hooks.
+
+D:\Website Projects\portfolio-site\src\components\Background.tsx:38:9
+   36 |         canvas.height = height;
+   37 |
+>  38 |         class Particle {
+      |         ^^^^^^^^^^^^^^^^
+>  39 |             x: number;
+      | ^^^^^^^^^^^^^^^^^^^^^^
+>  40 |             y: number;
+      ΓÇª
+      | ^^^^^^^^^^^^^^^^^^^^^^
+> 103 |             }
+      | ^^^^^^^^^^^^^^^^^^^^^^
+> 104 |         }
+      | ^^^^^^^^^^ Inline `class` declarations are not supported
+  105 |
+  106 |         // Initialize particles
+  107 |         for (let i = 0; i < PARTICLE_COUNT; i++) {
+
+  react-hooks/unsupported-syntax
+
+D:\Website Projects\portfolio-site\src\components\ContactModal.tsx
+    6:10  warning  'cn' is defined but never used                                   @typescript-eslint/no-unused-vars
+   46:73  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  117:63  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+D:\Website Projects\portfolio-site\src\components\Footer.tsx
+  4:10  warning  'Copy' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx
+  10:15  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:10:15
+   8 |     const sparkles = useMemo(() => [...Array(20)].map((_, i) => ({
+   9 |         id: i,
+> 10 |         size: Math.random() * 2 + 1,
+     |               ^^^^^^^^^^^^^ Cannot call impure function
+  11 |         left: Math.random() * 100,
+  12 |         top: Math.random() * 100,
+  13 |         duration: Math.random() * 3 + 2,  react-hooks/purity
+  11:15  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:11:15
+   9 |         id: i,
+  10 |         size: Math.random() * 2 + 1,
+> 11 |         left: Math.random() * 100,
+     |               ^^^^^^^^^^^^^ Cannot call impure function
+  12 |         top: Math.random() * 100,
+  13 |         duration: Math.random() * 3 + 2,
+  14 |         delay: Math.random() * 5                                    react-hooks/purity
+  12:14  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:12:14
+  10 |         size: Math.random() * 2 + 1,
+  11 |         left: Math.random() * 100,
+> 12 |         top: Math.random() * 100,
+     |              ^^^^^^^^^^^^^ Cannot call impure function
+  13 |         duration: Math.random() * 3 + 2,
+  14 |         delay: Math.random() * 5
+  15 |     })), []);                                      react-hooks/purity
+  13:19  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:13:19
+  11 |         left: Math.random() * 100,
+  12 |         top: Math.random() * 100,
+> 13 |         duration: Math.random() * 3 + 2,
+     |                   ^^^^^^^^^^^^^ Cannot call impure function
+  14 |         delay: Math.random() * 5
+  15 |     })), []);
+  16 |                                                                      react-hooks/purity
+  14:16  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:14:16
+  12 |         top: Math.random() * 100,
+  13 |         duration: Math.random() * 3 + 2,
+> 14 |         delay: Math.random() * 5
+     |                ^^^^^^^^^^^^^ Cannot call impure function
+  15 |     })), []);
+  16 |
+  17 |     return (                                                                                               react-hooks/purity
+  77:26  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   react/no-unescaped-entities
+
+D:\Website Projects\portfolio-site\src\components\Navbar.tsx
+    4:31  warning  'useCallback' is defined but never used                          @typescript-eslint/no-unused-vars
+   15:20  warning  'setHidden' is assigned a value but never used                   @typescript-eslint/no-unused-vars
+  119:38  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+D:\Website Projects\portfolio-site\src\components\Projects.tsx
+  5:10  warning  'ArrowUpRight' is defined but never used  @typescript-eslint/no-unused-vars
+  6:10  warning  'cn' is defined but never used            @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\projects\ProjectCard.tsx
+  3:10  warning  'useRef' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\projects\ProjectModal.tsx
+  6:8   warning  'Image' is defined but never used  @typescript-eslint/no-unused-vars
+  7:10  warning  'cn' is defined but never used     @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\ui\GlassCard.tsx
+  3:18  warning  'useMotionTemplate' is defined but never used  @typescript-eslint/no-unused-vars
+  4:36  warning  'ReactNode' is defined but never used          @typescript-eslint/no-unused-vars
+
+Γ£û 23 problems (9 errors, 14 warnings)
+

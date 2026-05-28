@@ -1,0 +1,29 @@
+
+> portfolio-site@0.1.0 lint
+> eslint
+
+
+D:\Website Projects\portfolio-site\src\components\Footer.tsx
+  3:44  warning  'memo' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx
+  20:9   error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\Website Projects\portfolio-site\src\components\Hero.tsx:20:9
+  18 |
+  19 |     useEffect(() => {
+> 20 |         setSparkles([...Array(20)].map((_, i) => ({
+     |         ^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  21 |             id: i,
+  22 |             size: Math.random() * 2 + 1,
+  23 |             left: Math.random() * 100,  react-hooks/set-state-in-effect
+  90:26  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          react/no-unescaped-entities
+
+Γ£û 3 problems (2 errors, 1 warning)
+
