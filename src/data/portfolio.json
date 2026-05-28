@@ -179,7 +179,7 @@
     "titleLine1": "Architecting Scalable",
     "titleLine2": "and Secure Systems.",
     "description": "I am a multi-disciplinary engineer with deep expertise in full-stack development, system architecture, and cybersecurity. From building AI-powered career assistants to kernel-level network interceptors, I focus on creating robust, high-performance applications that push the boundaries of modern technology.",
-    "image": "pfp.png",
+    "image": "https://files.catbox.moe/fngy81.jpg",
     "location": "Remote / Global"
   },
   "footer": {
@@ -196,7 +196,7 @@
   },
   "general": {
     "brandName": "Luffycpp.",
-    "logo": "pfp.png",
+    "logo": "https://files.catbox.moe/fngy81.jpg",
     "navCta": "Let's Talk",
     "preloaderText": "Luffycpp."
   },

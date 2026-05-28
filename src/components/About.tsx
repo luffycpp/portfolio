@@ -46,7 +46,7 @@ export const About = () => {
 
                         <FadeUp delay={0.2} className="relative w-full aspect-square max-w-sm rounded-2xl overflow-hidden mb-8 border border-white/10">
                             <Image
-                                src={`/${about.image}`}
+                                src={about.image}
                                 alt="Luffycpp"
                                 fill
                                 className="object-cover grayscale hover:grayscale-0 transition-all duration-500"

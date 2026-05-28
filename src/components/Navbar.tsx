@@ -67,7 +67,7 @@ export const Navbar = () => {
                         <div className="flex items-center gap-3">
                             <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/10">
                                 <Image
-                                    src={`/${general.logo}`}
+                                    src={general.logo}
                                     alt={general.brandName}
                                     fill
                                     className="object-cover"

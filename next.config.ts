@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         hostname: 'api.dicebear.com',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'files.catbox.moe',
+        pathname: '/**',
+      },
     ],
   },
   /* config options here */
